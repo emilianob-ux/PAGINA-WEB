@@ -35,3 +35,7 @@ Para problemas chicos existe una **vía exprés** (reformulación + 2-3 pregunta
 ```
 
 El workflow está fundamentado en metodologías probadas de resolución de problemas; `references/metodologias.md` documenta cada una, sus fuentes y qué fase del workflow la usa.
+
+### Versión para cualquier chatbot
+
+En `prompts/resolver-problemas-chatbot.md` hay una versión autocontenida del workflow como prompt: copialo y pegalo como primer mensaje en cualquier chatbot (Claude, ChatGPT, Gemini, etc.) y después contale tu problema.
