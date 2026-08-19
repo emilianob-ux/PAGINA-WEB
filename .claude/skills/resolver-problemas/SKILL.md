@@ -13,7 +13,7 @@ El workflow combina técnicas probadas: el método de Polya (entender antes de r
 
 1. **No propongas soluciones hasta la Fase 4 (confirmación).** Es la regla central. Una solución brillante para un problema mal entendido no sirve, y proponer temprano ancla la conversación y corta la exploración. Si se te ocurre una solución mientras escuchás, anotala mentalmente y guardala para la Fase 6.
 2. **Preguntá en tandas chicas: máximo 3-4 preguntas por turno.** Un cuestionario de 10 preguntas abruma y genera respuestas pobres. Elegí las preguntas que más información nueva aportan; siempre podés preguntar más en el turno siguiente.
-3. **Usá la herramienta AskUserQuestion cuando las respuestas posibles son cerradas o enumerables** (elegir entre opciones, sí/no, rangos). Para preguntas abiertas ("¿qué pasó?", "contame más de..."), preguntá en texto normal y esperá la respuesta.
+3. **Usá la herramienta AskUserQuestion cuando las respuestas posibles son cerradas o enumerables** (elegir entre opciones, sí/no, rangos). Para preguntas abiertas ("¿qué pasó?", "contame más de..."), preguntá en texto normal y esperá la respuesta. Si una tanda mezcla abiertas con alguna cerrada, mantené toda la tanda en texto para no fragmentarla; reservá AskUserQuestion para los momentos que son puramente de opciones (el checkpoint de la Fase 4, elegir entre soluciones).
 4. **Adaptá la profundidad al tamaño del problema.** Un problema chico no necesita las 8 fases completas — usá la Vía exprés (ver abajo). Un problema grande o difuso las necesita todas.
 5. **El problema es del usuario.** Vos aportás estructura, preguntas y opciones; el usuario aporta el contexto y toma las decisiones. No decidas por él en decisiones que le pertenecen.
 6. **Respondé en el idioma del usuario** y con su registro (formal/informal, voseo si lo usa).
@@ -29,7 +29,7 @@ Si el usuario ya contó el problema, pasá directo a la Fase 1. Si todavía no l
 
 Leé todo lo que contó sin interrumpir con soluciones ni juicios. Después:
 
-- **Reformulá el problema en 2-4 oraciones**, con tus palabras pero fiel a las de él. Esto demuestra que escuchaste y expone malentendidos temprano.
+- **Reformulá el problema en 2-4 oraciones**, con tus palabras pero fiel a las de él. Esto demuestra que escuchaste y expone malentendidos temprano. Cerrá la reformulación con una invitación breve a corregirte ("¿voy bien?") — no reemplaza el checkpoint formal de la Fase 4; solo evita construir dos fases sobre un malentendido.
 - **Identificá (para vos) el tipo de problema**, porque cambia las preguntas y las fases que aplican:
   - *Algo que falla o se rompió* (técnico, proceso que dejó de funcionar) → va a necesitar análisis de causa (Fase 5).
   - *Una decisión a tomar* (elegir entre caminos) → no hay "causa raíz"; el peso está en criterios y opciones (Fases 6-7).
@@ -132,7 +132,9 @@ Indicadores de vía exprés: el usuario describe el problema completo en pocas l
 
 ## Situaciones especiales
 
-- **"Dame la solución ya, sin tantas preguntas."** Respetalo. Dá tu mejor solución inmediatamente, pero con los **supuestos explícitos** ("asumo que X y que Y; si no es así, cambia la respuesta") y ofrecé validar los 2-3 supuestos más frágiles.
+Cuando una de estas situaciones aparece, **tiene precedencia sobre los principios y las fases**: la estructura sirve al usuario, no al revés.
+
+- **"Dame la solución ya, sin tantas preguntas."** Respetalo. Dá tu mejor solución inmediatamente, pero con los **supuestos explícitos** ("asumo que X y que Y; si no es así, cambia la respuesta"). Ofrecé validar los 2-3 supuestos más frágiles como autocomprobaciones rápidas — algo que el usuario pueda verificar en un minuto por su cuenta — no como una nueva ronda de preguntas que lo devuelva al cuestionario que quiso evitar.
 - **El usuario responde con vaguedades.** No repitas la misma pregunta; cambiá el ángulo: pedí un ejemplo concreto ("contame la última vez que pasó"), un contraste ("¿cuándo fue la última vez que anduvo bien?") o cuantificá ("¿cuántas veces por semana?").
 - **El problema es emocionalmente pesado** (conflicto personal, situación angustiante). Bajá el ritmo: validá primero ("suena desgastante"), preguntá de a una pregunta por vez, y no fuerces la plantilla — la estructura sirve al usuario, no al revés. Si excede lo que una conversación puede resolver (salud, legal, crisis), decilo con claridad y recomendá ayuda profesional.
 - **El usuario cambia de problema a mitad de camino.** Nombralo ("esto parece un problema distinto del que definimos") y preguntá cuál de los dos quiere trabajar; no mezcles definiciones.
